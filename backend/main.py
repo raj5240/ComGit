@@ -12,6 +12,7 @@ from pydantic import BaseModel, EmailStr, HttpUrl
 
 app = FastAPI(title="GitHub Profile Comparator API")
 
+
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
